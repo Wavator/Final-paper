@@ -1,0 +1,185 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx,todonotes}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\newcommand\rc[1]{\textcolor{red}{#1}}
+
+\begin{document}
+%
+
+\title{An Experimental Comparison of Reinforcement Learning Approaches on MOBA\\
+} 
+%\thanks{Supported by organization x.}}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+%\author{First Author\inst{1}\orcidID{0000-1111-2222-3333} \and
+%Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
+%Third Author\inst{3}\orcidID{2222--3333-4444-5555}}
+\author{Yu Zhao\inst{1,2}}
+%
+\authorrunning{Yu Zhao}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{Department of Computer Science and Engineering\\Southern University of Science and Technology (SUSTech), Shenzhen, China
+\and
+Lightspeed \& Quantum Studios, Tencent\\
+\email{put your SUSTech email}
+}
+
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+\rc{The abstract should briefly summarise your work and expected outcome.}
+
+\keywords{MOBA \and Reinforcement learning \and Game AI \and Multi-scenario.}
+\end{abstract}
+%
+%
+%
+\section{Introduction}
+\rc{You can write the introduction after finishing other sections.}
+
+\todo[inline]{Put some sentences to explain what does MOBA refer to, and name some MOBA games as examples.}
+
+The Multiplayer Online Battle Arena (MOBA) refers to ... Examples include ...
+
+\todo[inline]{List some of the research work on MOBA and describe the platform/games that they use.}
+
+\todo[inline]{Describe the importance of having a good benchmark/platform for studying MOBA.}
+
+\todo[inline]{You should discuss about the state-of-the-art RL approaches/techniques for MOBA. You can write this part after finishing background.}
+
+\todo[inline]{Describe your motivation on working on improving the platform and comparing RL for MOBA here}
+
+... motivates us ....
+
+\paragraph{Tasks}
+\todo[inline]{List your tasks. Literature review, set up the environment, practice, train new agents, improve the environments, etc...}
+
+\paragraph{Contribution}
+
+\todo[inline]{Summarise your work and the expected outcome. Highlight the research questions.}
+
+
+%\todo[inline]{Outline gives here (one paragraph)}
+%The remainder of this paper is organised as follows. Section ...
+
+
+\section{Background}
+
+\subsection{Multiplayer Online Battle Arena (MOBA)}
+\todo[inline]{Explain what does MOBA refer to, and name some MOBA games as examples.}
+
+\todo[inline]{Emphasise how MOBA games are popular, give some numbers of market and players.} 
+
+\todo[inline]{You may need to discuss about the difference between RTS and MOBA.}
+
+\subsection{Existing Platform/Benchmark for MOBA}
+
+\todo[inline]{You may need to list the existing platform/benchmark/games for studying MOBA, and list their pros and cons.}
+
+\subsection{Reinforcement Learning for MOBA}
+\todo[inline]{Review the research work that applied Reinforcement Learning to training agents for MOBA games, in particular, the papers published by DeepMind, Tencent, OpenAI, Microsoft, University of Alberta, etc. There are some researchers in Japan and Korea who work on MOBA as well. I think Nanjing University also have some?}
+\todo[inline]{You need to cite the papers, describe their work and discuss about their pros and cons.}
+
+
+\todo[inline]{This parti is very important, as you will compare RL approaches.}
+
+\section{Platform: name of the platform}
+\todo[inline]{Describe the platform and its structure}
+\rc{Ask your supervisor of Tencent, if you can describe the platform and its structure here without making their code public.}
+\rc{Ask your supervisor of Tencent, if you can use screenshots of the game playing.}
+
+\todo[inline]{List the limitation of the current platform, so that you are clear what you can improve.}
+
+\section{Experimental Study}
+
+\subsection{Task 1}
+\todo[inline]{Change the subsection title to your task. }
+\todo[inline]{Describe this task.}
+
+\subsubsection{Experimental setting}
+\todo[inline]{Describe how did you do it.}
+
+\subsubsection{Experimental results}
+
+\todo[inline]{Give the experimental results of this task, using table of numbers, curves, figures, etc.}
+
+\subsubsection{Discussion}
+\todo[inline]{Discuss the results}
+\todo[inline]{What you observe and conclude}
+
+\subsection{Task 2}
+\todo[inline]{Change the subsection title to your task. }
+\todo[inline]{Describe this task.}
+
+\subsubsection{Experimental setting}
+\todo[inline]{Describe how did you do it.}
+
+
+\subsubsection{Experimental results}
+
+\todo[inline]{Give the experimental results of this task, using table of numbers, curves, figures, etc.}
+
+\subsubsection{Discussion}
+\todo[inline]{Discuss the results}
+\todo[inline]{What you observe and conclude}
+
+\subsection{Task 3}
+\todo[inline]{Change the subsection title to your task. }
+\todo[inline]{Describe this task.}
+
+\subsubsection{Experimental setting}
+\todo[inline]{Describe how did you do it.}
+
+
+\subsubsection{Experimental results}
+
+\todo[inline]{Give the experimental results of this task, using table of numbers, curves, figures, etc.}
+
+\subsubsection{Discussion}
+\todo[inline]{Discuss the results}
+\todo[inline]{What you observe and conclude}
+
+\rc{add more subsections of tasks, if needed.}
+
+
+\section{Conclusion}
+\todo[inline]{Summarise your work}
+
+\todo[inline]{Emphasise the contribution of this work}
+
+\todo[inline]{List the advantages of your approach.}
+
+\todo[inline]{Usability and scalability of this approach (it can be applied to other ... ...)}
+
+
+\section{Future Work}
+TODO
+
+\paragraph{Weekly plan}
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{splncs04}
+\bibliography{main}
+%
+\end{document}
