@@ -1,2 +1,4 @@
 # Final-paper
-Latex and word version of final paper
+Latex and word version for final paper
+
+Only a personal version, use it carefully
